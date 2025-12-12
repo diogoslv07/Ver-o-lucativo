@@ -474,7 +474,7 @@ export const Page2: React.FC = () => {
 
   const handlePurchase = () => {
     if (soundEnabled) playClickSound();
-    alert("Redirecionar para o Checkout...");
+    window.location.href = "https://pay.cakto.com.br/37yz5sa_685500";
   };
 
   const handleToggleSound = () => {
